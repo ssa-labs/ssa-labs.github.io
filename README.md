@@ -1,4 +1,4 @@
-# website
+# SSA Labs | Website
+Visit our website here: [link](https://ssa-labs.github.io/)
 
-## credits
-Theme by [manulthanura](https://github.com/manulthanura/Positivus)
+**Credit**: Theme by [manulthanura](https://github.com/manulthanura/Positivus)
