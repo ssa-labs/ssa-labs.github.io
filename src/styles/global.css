@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Agdasima;
-  src: url('/assets/Agdasima.ttf')  format('truetype');
+  src: url('https://ssa-labs.github.io/assets/Agdasima.ttf')  format('truetype');
 }
 
 .font-Agdasima {
