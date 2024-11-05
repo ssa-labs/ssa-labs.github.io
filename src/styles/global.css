@@ -7,8 +7,12 @@
   src: url('https://ssa-labs.github.io/assets/Agdasima.ttf')  format('truetype');
 }
 
-.font-Agdasima {
+h1,h2,h3,h4,h5,h6 {
   font-family: Agdasima, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-Agdasima {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @layer base {

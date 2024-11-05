@@ -2,9 +2,11 @@
 import Container from "../components/Container.astro"
 import Layout from '../layouts/Layout.astro';
 import Team from "../components/Team.astro";
+import { SITE } from '../site.ts';
+
 ---
 
-<Layout title="Welcome to SSA Labs">
+<Layout title={SITE + ' | About Us'}>
 	<main class="space-y-20">
 		<Container>
             <div class="relative flex flex-col-reverse items-center md:flex-row" id="hero">

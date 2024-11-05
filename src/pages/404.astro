@@ -1,9 +1,10 @@
 ---
 import Container from "../components/Container.astro"
 import Layout from '../layouts/Layout.astro';
+import { SITE } from '../site.ts';
 ---
 
-<Layout title="Welcome to My site">
+<Layout title={SITE + '| Not Found'}>
 	<main class="space-y-20">
 		<Container>
             <div class="relative flex flex-col-reverse items-center justify-center md:flex-row" id="hero">
