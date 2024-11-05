@@ -1,6 +1,7 @@
 ---
 import Container from "./Container.astro"
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import { LOGO } from "../site.ts"
 
 const menuitems = [
   { href: '/about', label: 'About us' },
@@ -18,7 +19,7 @@ const navButton = { href: '#', label: 'Request a quote' };
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/Logo.svg" class="h-12" alt="Logo" />
+          <img src={LOGO} class="h-12" alt={BRAND} />
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-8 h-8 text-black" />

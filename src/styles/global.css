@@ -1,9 +1,15 @@
-/* POSITIVUS Official Astro theme */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Agdasima;
+  src: url('/assets/Agdasima.ttf')  format('truetype');
+}
+
+.font-Agdasima {
+  font-family: Agdasima, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 @layer base {
   .font-outline {
