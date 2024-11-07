@@ -29,32 +29,27 @@
         {
             "index": 1,
             "label": "Consultation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "content": "We begin by understanding your business goals, challenges, and specific requirements. This helps us define the project scope, timeline, and budget to ensure we are aligned from the start."
         },
         {
             "index": 2,
-            "label": "Research",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Planning",
+            "content": "Once we understand your needs, we create a detailed project plan with clear milestones and timelines. This ensures all requirements are met and resources are allocated efficiently for a successful execution."
         },
         {
             "index": 3,
             "label": "Implementation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "content": "With the plan developed, we proceed with building and integrating the solution into your existing systems. Our team ensures everything is developed according to specifications, with a focus on functionality and scalability."
         },
         {
             "index": 4,
-            "label": "Optimization",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Quality Assurance",
+            "content": "Before we launch, we conduct rigorous testing to ensure the solution is bug-free, secure, and performs as expected. User acceptance testing ensures that the final product aligns with your business needs and expectations."
         },
         {
             "index": 5,
-            "label": "Reporting",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 6,
-            "label": "Improvement",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "label": "Launch & Ongoing Support",
+            "content": "Once the solution is ready, we deploy it to your live environment. We continue to offer post-launch support, including monitoring, maintenance, and updates to ensure long-term success."
         }
     ]
 }

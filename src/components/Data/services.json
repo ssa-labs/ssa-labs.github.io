@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
-        "name1": "Search engine",
-        "name2": "optimization",
+        "name1": "Website",
+        "name2": "Development",
+        "description": "Create a stunning, responsive website tailored to your business needs, optimized for performance and user experience.",
         "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
         "arrow": "./services/ag.svg",
         "link": "./",
@@ -10,8 +11,9 @@
     },
     {
         "id": 2,
-        "name1": "Pay-per-click",
-        "name2": "advertising",
+        "name1": "Custom Software",
+        "name2": "Development",
+        "description": "Build bespoke software solutions that streamline your operations, enhance productivity, and scale with your business.",
         "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
         "arrow": "./services/ag.svg",
         "link": "./",
@@ -19,8 +21,9 @@
     },
     {
         "id": 3,
-        "name1": "Social Media",
-        "name2": "Marketing",
+        "name1": "Software",
+        "name2": "Maintenance",
+        "description": "Ensure your software stays up-to-date, secure, and bug-free with our proactive maintenance and optimization services.",
         "background": "h-[310px] p-12 bg-black rounded-[45px] shadow-card border border-black justify-between items-center flex text-white",
         "arrow": "./services/aw.svg",
         "link": "./",
@@ -28,8 +31,9 @@
     },
     {
         "id": 4,
-        "name1": "Email",
-        "name2": "Marketing",
+        "name1": "Hardware",
+        "name2": "Maintenance",
+        "description": "Keep your computers and hardware running at peak performance with our expert repair and preventative maintenance services.",
         "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
         "arrow": "./services/ag.svg",
         "link": "./",
@@ -37,20 +41,12 @@
     },
     {
         "id": 5,
-        "name1": "Content",
-        "name2": "Creation",
+        "name1": "Technical",
+        "name2": "Support",
+        "description": "Get fast, reliable support for all your tech issues, with expert troubleshooting and solutions to keep your systems running smoothly.",
         "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
         "arrow": "./services/ag.svg",
         "link": "./",
         "image": "./services/05.svg"
-    },
-    {
-        "id": 6,
-        "name1": "Analytics and",
-        "name2": "Tracking",
-        "background": "h-[310px] p-12 bg-black rounded-[45px] shadow-card border border-black justify-between items-center flex text-white",
-        "arrow": "./services/aw.svg",
-        "link": "./",
-        "image": "./services/06.svg"
     }
 ]

@@ -7,4 +7,4 @@ export const OGIMAGE = 'https://ssa-labs.github.io/assets/ogimage.png'
 export const LOGO = 'https://ssa-labs.github.io/assets/logo.svg'
 
 
-export const SERVICES = "Our company specializes in software development and computer maintenance. Every project is more than just a service; it's an opportunity to create something exceptional"
+export const SERVICES = "Our company specializes in software development and computer maintenance."

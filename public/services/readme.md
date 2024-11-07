@@ -1,0 +1,1 @@
+SVG Illustrations: [SVGRepo](https://www.svgrepo.com/collection/moriarty-thin-line-vectors/)
