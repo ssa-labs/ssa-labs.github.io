@@ -1,32 +1,20 @@
 [
   {
     "index": 1,
-    "name": "John Doe",
-    "description": "Marketing dierector at XYZ",
-    "message": ""
+    "name": "Samantha L.",
+    "description": "CEO, Tech Innovators Inc.",
+    "message": "The team at SSA Labs developed custom software that transformed our operations, and their reliable maintenance and support keep everything running smoothly. Highly recommend!"
   },
   {
     "index": 2,
-    "name": "Ana Banana",
-    "description": "Marketing dierector at XYZ",
-    "message": ""
+    "name": "David R.",
+    "description": "Operations Manager, GreenTech Solutions",
+    "message": "From custom software development to expert hardware maintenance, SSA Labs has become a trusted partner. Their team is professional and always available to support us."
   },
   {
     "index": 3,
-    "name": "Camilo Corintio",
-    "description": "Marketing dierector at XYZ",
-    "message": ""
-  },
-  {
-    "index": 4,
-    "name": "Karla Kaz",
-    "description": "Marketing dierector at XYZ",
-    "message": ""
-  },
-  {
-    "index": 5,
-    "name": "Johanna Jana",
-    "description": "Marketing dierector at XYZ",
-    "message": ""
+    "name": "Mark W.",
+    "description": "Marketing Director, Prime Retailers",
+    "message": "Thanks to SSA Labs, our website is now functional and beautiful, and their ongoing software maintenance keeps it secure. Their tech support is quick and dependable, making them a true game-changer for our business."
   }
 ]
