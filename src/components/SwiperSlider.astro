@@ -6,7 +6,7 @@ import slides from "./Data/reviews.json";
   id="ProjectSlider"
   class="swiper mt-10"
   style={{
-    "--swiper-pagination-color": "#B9FF66",
+    "--swiper-pagination-color": "#fde68a",
     "--swiper-pagination-bullet-inactive-color": "#fff",
     "--swiper-pagination-bullet-inactive-opacity": "1",
     "--swiper-pagination-bullet-size": "19px",
@@ -22,12 +22,12 @@ import slides from "./Data/reviews.json";
           aria-label={`${slide.index} / ${slides.length}`}
         >
           <div class="flex flex-col justify-center items-center py-[48px] px-6 sm:px-[52px]">
-            <p class="bubble">
-              "{slide.message}"
-            </p>
+            <p class="bubble">"{slide.message}"</p>
           </div>
           <div class="w-full px-10 sm:px-20 ">
-            <div class="text-lime text-base md:text-xl font-medium">{slide.name}</div>
+            <div class="text-lime text-base md:text-xl font-medium">
+              {slide.name}
+            </div>
             <div>{slide.description}</div>
           </div>
         </div>
@@ -100,7 +100,7 @@ import slides from "./Data/reviews.json";
     background-color: black;
     color: white;
     border-radius: 45px;
-    border: 1px solid #B9FF66;
+    border: 1px solid #b9ff66;
   }
   .bubble:after {
     content: "";
@@ -118,7 +118,7 @@ import slides from "./Data/reviews.json";
     left: 48px; /* This should be 1px less than the left value of .bubble:after */
     border-width: 20px; /* Adjust this to match the border-width of .bubble:after */
     border-style: solid;
-    border-color: #B9FF66 transparent transparent #B9FF66;
+    border-color: #b9ff66 transparent transparent #b9ff66;
   }
   .swiper-wrapper {
     position: relative;
