@@ -1,6 +1,6 @@
 ---
 import Container from "../components/Container.astro";
-import Faq from "../components/Faq.astro";
+import FaqList from "../components/Faq.astro";
 import Layout from "../layouts/Layout.astro";
 import { SITE } from "../site.ts";
 ---
@@ -8,41 +8,41 @@ import { SITE } from "../site.ts";
 <Layout title={SITE + " | FAQ"}>
     <main class="space-y-20">
         <Container>
-            <Container>
-                <div
-                    class="relative flex flex-col-reverse items-center md:flex-row max-w-xl mx-auto"
-                >
-                    <div class="row items-center py-5 md:pb-20 md:pt-10">
-                        <div class="text-center space-y-10">
+            <div
+                class="relative flex flex-col-reverse items-center md:flex-row max-w-xl mx-auto"
+            >
+                <div class="row items-center py-5 md:pb-20 md:pt-10">
+                    <div class="text-center space-y-10">
+                        <h2
+                            class="text-5xl font-medium leading-none md:text-6xl"
+                        >
+                            Frequently Asked <br /> Questions
+                        </h2>
+                        <p
+                            class="mt-6 mb-8 text-md font-normal leading-7 sm:mb-12"
+                        >
+                            Find answers to common questions about our software
+                            development and computer maintenance services. If
+                            you need further assistance, don't hesitate to
+                            contact us!
+                        </p>
+                        <a
+                            class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
+                            rel="noopener noreferrer"
+                            href="#"
+                            target="_blank"
+                        >
                             <h2
-                                class="text-5xl font-medium leading-none md:text-6xl"
+                                class="text-center text-xl font-normal leading-7"
                             >
-                                Frequently Asked <br /> Questions
+                                Book a consultation
                             </h2>
-                            <p
-                                class="mt-6 mb-8 text-md font-normal leading-7 sm:mb-12"
-                            >
-                            Find answers to common questions about our software development and computer maintenance services. If you need further assistance, don't hesitate to contact us!
-                            </p>
-                            <a
-                                class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
-                                rel="noopener noreferrer"
-                                href="#"
-                                target="_blank"
-                            >
-                                <h2
-                                    class="text-center text-xl font-normal leading-7"
-                                >
-                                    Book a consultation
-                                </h2>
-                            </a>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </Container>
-            <br />
-
-            <Faq />
+            </div>
         </Container>
+        <br />
+        <FaqList />
     </main>
 </Layout>
