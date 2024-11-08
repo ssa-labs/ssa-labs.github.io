@@ -1,21 +1,78 @@
 ---
-import { BRAND, LOGO } from "../site.ts";
+import { SITE, BRAND, LOGO, SLOGAN } from "../site.ts";
 import Container from "./Container.astro";
+import { Icon } from "astro-icon/components";
+import socials from "./Data/socials.json";
+
+const links = [
+    { text: "Services", link: "#" },
+    { text: "About", link: "#" },
+    { text: "Our Team", link: "#" },
+    { text: "Contact", link: "#" },
+    { text: "FAQ", link: "#" },
+];
 ---
-<footer class="bg-lime bg-fixed bg-bottom text-black">
+
+<footer class="bg-lime bg-fixed bg-bottom text-black border-t-2">
     <Container>
-    <div class="py-6">
-        <div class="flex flex-col items-center justify-between md:flex-row">
-            <div class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img class="w-1/2" src={LOGO} alt={BRAND}>
+        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="flex justify-center text-teal-600 pt-6 pb-12">
+                <img
+                    class="w-1/2 max-w-[225px] mx-auto"
+                    src={LOGO}
+                    alt={BRAND}
+                />
             </div>
-            <div class="flex mt-4 md:m-0">
-                <div class="-mx-4">
-                    &copy; <span id="currentYear"></span> SSA Labs | Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="underline">Astro</a></div>
-                </div>
-            </div>
+
+            <p
+                class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500"
+            >
+                <span
+                    class="inline-block shadow-inner px-4 py-1 rounded-full border border-zinc-500"
+                >
+                    {SLOGAN}
+                </span>
+            </p>
+
+            <ul
+                class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12"
+            >
+                {
+                    links.map(({ text, link }) => (
+                        <li>
+                            <a
+                                class="text-gray-700 hover:underline transition hover:text-gray-700/75"
+                                href={link}
+                            >
+                                {text}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+
+            <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+                {
+                    socials.map(({ name, icon, link }) => (
+                        <li>
+                            <a
+                                href={link}
+                                rel="noreferrer"
+                                target="_blank"
+                                class="text-gray-700 transition hover:text-gray-700/75"
+                            >
+                                <span class="sr-only">{name}</span>
+                                <Icon name={icon} class="size-6" />
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
         </div>
-    </div>
+        <div class="py-6 text-sm text-center">
+            Copyright &copy; <span id="currentYear"></span>
+            {SITE} | All Rights Reserved.
+        </div>
     </Container>
 </footer>
 

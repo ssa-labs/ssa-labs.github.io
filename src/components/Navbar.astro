@@ -4,9 +4,10 @@ import { BRAND, LOGO } from "../site.ts";
 import Container from "./Container.astro";
 
 const menuitems = [
-	{ href: "/about", label: "About us" },
 	{ href: "/#services", label: "Services" },
-	{ href: "/#projects", label: "Case Studies" },
+	{ href: "/about", label: "About" },
+	{ href: "/#contact", label: "Contact" },
+	// { href: "/#projects", label: "Case Studies" },
 ];
 
 const navButton = { href: "#", label: "Request a quote" };
@@ -43,7 +44,7 @@ const navButton = { href: "#", label: "Request a quote" };
 									<li>
 										<a
 											href={item.href}
-											class="block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0"
+											class="block py-2 px-3 text-black text-center rounded lg:bg-transparent lg:p-0"
 										>
 											{item.label}
 										</a>

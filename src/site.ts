@@ -1,5 +1,6 @@
 export const SITE = "SSA Labs";
-export const BRAND = "SSA Labs - Rapid Innovation, Tailored Just for You";
+export const SLOGAN = "Rapid Innovation, Tailored Just for You";
+export const BRAND = `${SITE} - ${SLOGAN}`;
 export const DESCRIPTION =
 	"SSA Labs offers tailored software development and reliable computer maintenance services, empowering businesses to enhance efficiency and performance. Partner with us for innovative tech solutions!";
 export const WEBSITE = "https://ssa-labs.github.io";

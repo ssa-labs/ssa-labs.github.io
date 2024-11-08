@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Facebook",
+		"link": "https://www.facebook.com/profile.php?id=61567825291578",
+		"icon": "facebook"
+	},
+	{
+		"name": "Instagram",
+		"link": "https://www.instagram.com/ssa.labs256/",
+		"icon": "instagram"
+	},
+	{
+		"name": "LinkedIn",
+		"link": "https://www.linkedin.com/in/ssa-labs-9998a3335/",
+		"icon": "linkedin"
+	},
+	{ "name": "Twitter/X", "link": "https://x.com/ssalabs256", "icon": "x" },
+	{ "name": "GitHub", "link": "https://github.com/ssa-labs", "icon": "github" }
+]
