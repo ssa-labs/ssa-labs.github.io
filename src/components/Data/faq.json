@@ -1,0 +1,86 @@
+[
+	{
+		"question": "What services does your company offer?",
+		"answer": "We offer a range of services including custom software development (web and mobile applications, enterprise solutions) and computer maintenance (IT support, hardware troubleshooting, network setup, and system optimization)."
+	},
+	{
+		"question": "What types of businesses do you work with?",
+		"answer": "We work with small to medium-sized businesses across various industries. Whether you need a custom software solution to streamline operations or ongoing IT support for your team, we tailor our services to meet your specific needs."
+	},
+	{
+		"question": "Are your services available for individuals, or only businesses?",
+		"answer": "We offer both business and individual services. From enterprise-grade software development to home computer repairs and personal IT support, we can assist clients at any scale."
+	},
+	{
+		"question": "What kind of software development do you specialize in?",
+		"answer": "We specialize in custom software development, including: Web applications, Mobile apps (iOS & Android), Enterprise software solutions, E-commerce platforms, Database management and integration."
+	},
+	{
+		"question": "How long does it take to develop custom software?",
+		"answer": "The timeline depends on the complexity and scope of the project. Typically, a simple app or software can take a few weeks, while larger systems may take several months. We provide a detailed project timeline after an initial consultation."
+	},
+	{
+		"question": "Can you help with integrating existing software or systems?",
+		"answer": "Yes! We have experience integrating new software with your existing systems and ensuring seamless data migration, compatibility, and workflow optimization."
+	},
+	{
+		"question": "What technologies do you use for software development?",
+		"answer": "Our team is skilled in a wide range of technologies, including React, Node.js, Angular, Python, Java, .NET, Swift, among others. We choose the right technology stack based on your project requirements."
+	},
+	{
+		"question": "What does your computer maintenance service include?",
+		"answer": "Our maintenance services cover: Virus and malware removal, System optimization, Hardware upgrades and repairs, Network setup and troubleshooting, Data backup and recovery."
+	},
+	{
+		"question": "Do you offer on-site IT support for computer maintenance?",
+		"answer": "Yes, we provide both remote and on-site IT support. Whether you're experiencing issues with a single machine or need ongoing maintenance for your entire office network, we're here to help."
+	},
+	{
+		"question": "How do I know if my computer needs maintenance?",
+		"answer": "Common signs that your computer may need maintenance include: Slower performance or frequent crashes, Unusual noises or overheating, Frequent pop-up ads or suspicious behavior, Internet connectivity or network issues. If you're experiencing any of these, it may be time for a tune-up."
+	},
+	{
+		"question": "How do you charge for your services?",
+		"answer": "For software development, we typically charge on a project basis or through an hourly rate, depending on the complexity of the work. For computer maintenance, we offer both one-time repair services and monthly maintenance plans to keep your systems running smoothly."
+	},
+	{
+		"question": "Do you offer any maintenance plans for businesses?",
+		"answer": "Yes! We offer custom maintenance plans for businesses that include regular system checks, troubleshooting, software updates, and on-demand IT support. These plans can be tailored to fit your needs and budget."
+	},
+	{
+		"question": "Do you provide free consultations?",
+		"answer": "Yes! We offer a free initial consultation to understand your needs and discuss potential solutions. After the consultation, we provide a detailed proposal with pricing."
+	},
+	{
+		"question": "How do you manage software development projects?",
+		"answer": "We follow an Agile methodology, ensuring flexibility and iterative progress. After understanding your requirements, we break the project into phases, allowing for regular feedback and adjustments. We keep you informed with updates throughout the process."
+	},
+	{
+		"question": "Do you provide ongoing support after software development is completed?",
+		"answer": "Yes! We offer post-launch support and maintenance to ensure your software runs smoothly, including bug fixes, updates, and feature enhancements."
+	},
+	{
+		"question": "How can I contact you for IT support or troubleshooting?",
+		"answer": "You can reach us via our website's contact form, email, or phone. We also offer live chat support for quick troubleshooting and assistance."
+	},
+	{
+		"question": "Is my data secure during software development and maintenance?",
+		"answer": "Absolutely. We prioritize data security and ensure that all sensitive information is encrypted and protected. We follow industry best practices for securing both software applications and computer systems."
+	},
+	{
+		"question": "Do you provide backup and data recovery services?",
+		"answer": "Yes, we offer data backup solutions and disaster recovery services to ensure your important data is always safe and recoverable in case of a system failure."
+	},
+	{
+		"question": "How do you handle privacy concerns?",
+		"answer": "We are committed to maintaining your privacy and confidentiality. We will never share your personal or business data with third parties without your consent. Our team follows strict privacy policies to ensure your information stays secure."
+	},
+	{
+		"question": "What sets your company apart from other service providers?",
+		"answer": "We offer a unique combination of custom software development and computer maintenance services, allowing us to be your one-stop shop for both software solutions and IT support. Our team is experienced, reliable, and dedicated to providing exceptional service tailored to your needs."
+	},
+	{
+		"question": "Do you have any customer testimonials or case studies?",
+		"answer": "Yes! Feel free to check out our case studies and client testimonials on our website to see how we've helped other businesses with software development and IT maintenance."
+	}
+]

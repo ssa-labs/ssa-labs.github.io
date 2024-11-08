@@ -4,9 +4,10 @@ import { BRAND, LOGO } from "../site.ts";
 import Container from "./Container.astro";
 
 const menuitems = [
-	{ href: "/#services", label: "Services" },
 	{ href: "/about", label: "About" },
+	{ href: "/#services", label: "Services" },
 	{ href: "/#contact", label: "Contact" },
+	{ href: "/faq", label: "FAQ" },
 	// { href: "/#projects", label: "Case Studies" },
 ];
 
@@ -27,7 +28,7 @@ const navButton = { href: "#", label: "Request a quote" };
 							href="/"
 							class="flex items-center space-x-3 rtl:space-x-reverse"
 						>
-							<img src={LOGO} class="h-8" alt={BRAND} />
+							<img src={LOGO} class="h-8 lg:h-12" alt={BRAND} />
 						</a>
 						<div class="block lg:hidden">
 							<MenuIcon class="w-8 h-8 text-black" />
@@ -44,7 +45,7 @@ const navButton = { href: "#", label: "Request a quote" };
 									<li>
 										<a
 											href={item.href}
-											class="block py-2 px-3 text-black text-center rounded lg:bg-transparent lg:p-0"
+											class="block py-2 px-3 hover:underline text-black text-center rounded lg:bg-transparent lg:p-0"
 										>
 											{item.label}
 										</a>
@@ -55,7 +56,7 @@ const navButton = { href: "#", label: "Request a quote" };
 								class="lg:hidden flex items-center justify-center mt-3 gap-4"
 							>
 								<a
-									class="px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
+									class="px-9 py-4 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
 									href={navButton.href}
 									target="_blank"
 									><h2
@@ -71,7 +72,7 @@ const navButton = { href: "#", label: "Request a quote" };
 				<div>
 					<div class="hidden lg:flex items-center gap-4">
 						<a
-							class="px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
+							class="px-9 py-4 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
 							href={navButton.href}
 							target="_blank"
 							><h2

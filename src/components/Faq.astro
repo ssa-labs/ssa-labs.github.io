@@ -1,0 +1,43 @@
+---
+import Container from "./Container.astro";
+import faq from "./Data/faq.json";
+---
+
+<Container>
+    <div class="container max-w-xl mx-auto py-6 mb-6 grid grid-cols-1 gap-4">
+        {
+            faq.map(({ question, answer }, i) => (
+                <details class="group [&_summary::-webkit-details-marker]:hidden rounded-xl border" open={i == 0}>
+                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+                        <h2 class="font-medium">{question}</h2>
+
+                        <svg
+                            class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7"
+                            />
+                        </svg>
+                    </summary>
+
+                    <p class="mt-4 px-4 pb-2 leading-relaxed text-gray-700">
+                        {answer}
+                    </p>
+                </details>
+            ))
+        }
+    </div>
+</Container>
+
+<style>
+    details[open] {
+        @apply bg-lime;
+    }
+</style>
