@@ -1,24 +1,24 @@
 {
 	"team": [
 		{
-			"title": "CEO and Founder",
-			"name": "John Smith",
-			"description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-			"profile": "/team/c1.png",
+			"title": "Co-Founder & CEO",
+			"name": "Lubega Joseph",
+			"description": "Joseph leads the company's vision and strategy, ensuring the delivery of innovative software solutions and high-quality computer maintenance services.",
+			"profile": "/team/c1.svg",
 			"link": "/"
 		},
 		{
-			"title": "Director of Operations",
-			"name": "Jane Doe",
-			"description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-			"profile": "/team/c2.png",
+			"title": "Co-Founder & CTO",
+			"name": "Ssekyene Robert",
+			"description": "Robert oversees all technical operations, from software development to IT support, ensuring scalable solutions and expert troubleshooting for maintenance services.",
+			"profile": "/team/c2.svg",
 			"link": "/"
 		},
 		{
-			"title": "Senior SEO Specialist",
-			"name": "Michael Brown",
-			"description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-			"profile": "/team/c3.png",
+			"title": "Co-Founder & COO",
+			"name": "Ainebyoona Dickson",
+			"description": "Dickson manages daily operations and customer relations, ensuring smooth service delivery for both software projects and computer maintenance.",
+			"profile": "/team/c3.svg",
 			"link": "/"
 		}
 	],
