@@ -8,13 +8,14 @@
   },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true
   },
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
     "astro-build.astro-vscode",
-    "ms-azuretools.vscode-docker"
+    "biomejs.biome"
   ],
   "postCreateCommand": "pnpm install && pnpm dev",
   "forwardPorts": [4321]

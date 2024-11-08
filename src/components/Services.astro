@@ -1,8 +1,8 @@
 ---
-import Container from "./Container.astro"
+import { SERVICES } from "../site.ts";
+import Container from "./Container.astro";
+import servicesData from "./Data/services.json";
 import Topic from "./Topic.astro";
-import servicesData from './Data/services.json';
-import { SERVICES } from '../site.ts'
 ---
 <Container>
 <div class="relative flex flex-col items-center md:flex-row" id="services">

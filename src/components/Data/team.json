@@ -1,55 +1,52 @@
 {
-    "team":
-    [
-        {
-            "title": "CEO and Founder",
-            "name": "John Smith",
-            "description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-            "profile": "/team/c1.png",
-            "link": "/"
-        },
-        {
-            "title": "Director of Operations",
-            "name": "Jane Doe",
-            "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-            "profile": "/team/c2.png",
-            "link": "/"
-        },
-        {
-            "title": "Senior SEO Specialist",
-            "name": "Michael Brown",
-            "description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-            "profile": "/team/c3.png",
-            "link": "/"
-        }
-
-    ],
-    "process":
-    [
-        {
-            "index": 1,
-            "label": "Consultation",
-            "content": "We begin by understanding your business goals, challenges, and specific requirements. This helps us define the project scope, timeline, and budget to ensure we are aligned from the start."
-        },
-        {
-            "index": 2,
-            "label": "Planning",
-            "content": "Once we understand your needs, we create a detailed project plan with clear milestones and timelines. This ensures all requirements are met and resources are allocated efficiently for a successful execution."
-        },
-        {
-            "index": 3,
-            "label": "Implementation",
-            "content": "With the plan developed, we proceed with building and integrating the solution into your existing systems. Our team ensures everything is developed according to specifications, with a focus on functionality and scalability."
-        },
-        {
-            "index": 4,
-            "label": "Quality Assurance",
-            "content": "Before we launch, we conduct rigorous testing to ensure the solution is bug-free, secure, and performs as expected. User acceptance testing ensures that the final product aligns with your business needs and expectations."
-        },
-        {
-            "index": 5,
-            "label": "Launch & Ongoing Support",
-            "content": "Once the solution is ready, we deploy it to your live environment. We continue to offer post-launch support, including monitoring, maintenance, and updates to ensure long-term success."
-        }
-    ]
+	"team": [
+		{
+			"title": "CEO and Founder",
+			"name": "John Smith",
+			"description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+			"profile": "/team/c1.png",
+			"link": "/"
+		},
+		{
+			"title": "Director of Operations",
+			"name": "Jane Doe",
+			"description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+			"profile": "/team/c2.png",
+			"link": "/"
+		},
+		{
+			"title": "Senior SEO Specialist",
+			"name": "Michael Brown",
+			"description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+			"profile": "/team/c3.png",
+			"link": "/"
+		}
+	],
+	"process": [
+		{
+			"index": 1,
+			"label": "Consultation",
+			"content": "We begin by understanding your business goals, challenges, and specific requirements. This helps us define the project scope, timeline, and budget to ensure we are aligned from the start."
+		},
+		{
+			"index": 2,
+			"label": "Planning",
+			"content": "Once we understand your needs, we create a detailed project plan with clear milestones and timelines. This ensures all requirements are met and resources are allocated efficiently for a successful execution."
+		},
+		{
+			"index": 3,
+			"label": "Implementation",
+			"content": "With the plan developed, we proceed with building and integrating the solution into your existing systems. Our team ensures everything is developed according to specifications, with a focus on functionality and scalability."
+		},
+		{
+			"index": 4,
+			"label": "Quality Assurance",
+			"content": "Before we launch, we conduct rigorous testing to ensure the solution is bug-free, secure, and performs as expected. User acceptance testing ensures that the final product aligns with your business needs and expectations."
+		},
+		{
+			"index": 5,
+			"label": "Launch & Ongoing Support",
+			"content": "Once the solution is ready, we deploy it to your live environment. We continue to offer post-launch support, including monitoring, maintenance, and updates to ensure long-term success."
+		}
+	]
 }
