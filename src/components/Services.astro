@@ -1,5 +1,5 @@
 ---
-import { SERVICES } from "../site.ts";
+import { BOOKING, SERVICES } from "../site.ts";
 import Container from "./Container.astro";
 import servicesData from "./Data/services.json";
 import Topic from "./Topic.astro";
@@ -59,7 +59,7 @@ import Topic from "./Topic.astro";
                         business thrive with our tailored tech solutions.
                     </div>
                     <a
-                        href="/"
+                        href={BOOKING}
                         class="px-[35px] py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-[14px] justify-start items-start gap-2.5 inline-flex"
                     >
                         <div

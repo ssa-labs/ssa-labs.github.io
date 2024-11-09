@@ -2,7 +2,7 @@
 import Container from "../components/Container.astro";
 import FaqList from "../components/Faq.astro";
 import Layout from "../layouts/Layout.astro";
-import { SITE } from "../site.ts";
+import { BOOKING, SITE } from "../site.ts";
 ---
 
 <Layout title={SITE + " | FAQ"}>
@@ -29,8 +29,7 @@ import { SITE } from "../site.ts";
                         <a
                             class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
                             rel="noopener noreferrer"
-                            href="#"
-                            target="_blank"
+                            href={BOOKING}
                         >
                             <h2
                                 class="text-center text-xl font-normal leading-7"

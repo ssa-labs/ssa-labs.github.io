@@ -1,0 +1,31 @@
+---
+import Container from "../components/Container.astro";
+import Contact from "../components/Contact.astro";
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+import { SITE } from "../site.ts";
+---
+
+<Layout title={SITE + ' | Contact Us'}>
+	<main class="space-y-20">
+		<Container>
+            <div class="relative flex flex-col-reverse items-center" id="hero">
+                <div class="row items-center py-5 md:pb-20 md:pt-10 container max-w-3xl mx-auto">
+                    <div class="text-center space-y-10">
+                        <h2 class="text-5xl font-medium leading-none md:text-6xl">
+                            Reach Out, and Let's <br> Build Something Great.
+                        </h2>
+                        <p class="mt-6 mb-8 text-lg font-normal leading-7 sm:mb-12">
+                            We're here to help! Whether you have questions or are ready to start a project, get in touch and let's discuss how we can meet your needs with the right technology solutions. Reach out using the form below or your preferred method, and we'll respond promptly.
+                        </p>
+                        <a class="px-9 py-3 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex" rel="noopener noreferrer"  href="#contact">
+                            <Icon name="arrow" class="w-8 h-8 text-red-500" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </Container>
+        <br>
+        <Contact />
+	</main>
+</Layout>

@@ -8,7 +8,7 @@ const links = [
 	{ text: "About", link: "/about" },
 	{ text: "Services", link: "/#services" },
 	{ text: "Our Team", link: "/about#team" },
-	{ text: "Contact", link: "#" },
+	{ text: "Contact", link: "/contact" },
 	{ text: "FAQ", link: "/faq" },
 ];
 ---
@@ -54,7 +54,7 @@ const links = [
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
                 {
                     socials.map(({ name, icon, link }) => (
-                        <li>
+                        <li  class="hover:bg-lime rounded-lg p-2">
                             <a
                                 href={link}
                                 rel="noreferrer"
