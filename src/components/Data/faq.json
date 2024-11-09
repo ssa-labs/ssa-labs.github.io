@@ -13,7 +13,7 @@
 	},
 	{
 		"question": "What kind of software development do you specialize in?",
-		"answer": "We specialize in custom software development, including: Web applications, Mobile apps (iOS & Android), Enterprise software solutions, E-commerce platforms, Database management and integration."
+		"answer": "We specialize in custom software development, including: Web applications, Mobile apps, Enterprise software solutions, Database management and integration."
 	},
 	{
 		"question": "How long does it take to develop custom software?",
@@ -25,7 +25,7 @@
 	},
 	{
 		"question": "What technologies do you use for software development?",
-		"answer": "Our team is skilled in a wide range of technologies, including React, Node.js, Angular, Python, Java, .NET, Swift, among others. We choose the right technology stack based on your project requirements."
+		"answer": "Our team is skilled in a wide range of technologies, including PHP, Node.js, Python, Go, among others. We choose the right technology stack based on your project requirements."
 	},
 	{
 		"question": "What does your computer maintenance service include?",

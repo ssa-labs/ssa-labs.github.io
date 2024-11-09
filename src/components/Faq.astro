@@ -1,43 +1,46 @@
 ---
 import Container from "./Container.astro";
 import faq from "./Data/faq.json";
+import FaqCard from "./FaqCard.astro";
 ---
 
 <Container>
-    <div class="container max-w-xl mx-auto py-6 mb-6 grid grid-cols-1 gap-4">
-        {
-            faq.map(({ question, answer }, i) => (
-                <details class="group [&_summary::-webkit-details-marker]:hidden rounded-xl border" open={i == 0}>
-                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
-                        <h2 class="font-medium">{question}</h2>
+    <div class="container mx-auto max-w-2xl -mt-16 pb-6 mb-6 grid grid-cols-1 gap-4">
+        <div class="py-6 lg:pb-12 px-4">
+            <input type="search" id="filter" placeholder="Enter keywords to search..." class="block px-4 py-3 w-full text-base text-black bg-zinc-100 rounded-[45px] border border-zinc-500 shadow-sm focus:border-black max-w-lg mx-auto outline-none"
+            >
+        </div>
 
-                        <svg
-                            class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M19 9l-7 7-7-7"
-                            />
-                        </svg>
-                    </summary>
-
-                    <p class="mt-4 px-4 pb-2 leading-relaxed text-gray-700">
-                        {answer}
-                    </p>
-                </details>
-            ))
-        }
+        <div class="space-y-4">
+            {
+                faq.map(({ question, answer }, i) => (
+                  <FaqCard question={question} answer={answer} open={i==0} id={`a${i}`} />  
+                ))
+            }
+        </div>
     </div>
 </Container>
 
-<style>
-    details[open] {
-        @apply bg-lime;
+<script is:inline>
+    const input = document.querySelector('input')
+    let searchTimeout = undefined
+    input.oninput = () => {
+        clearTimeout(searchTimeout)
+        searchTimeout = setTimeout(() => {
+            const items = input.value.split(/[\s,]/)
+            const all = document.querySelectorAll('details')
+
+            if (!items.length) {
+                all.forEach(d => d.style.display = '')
+            } else {
+                all.forEach((d,i) => {
+                    if (items.some(item => new RegExp(item, 'gi').test(d.textContent))) {
+                        d.style.display = ''
+                    } else {
+                        d.style.display = 'none'
+                    }
+                })
+            }
+        }, 300)
     }
-</style>
+</script>
