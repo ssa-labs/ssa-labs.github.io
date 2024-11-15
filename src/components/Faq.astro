@@ -33,7 +33,7 @@ import FaqCard from "./FaqCard.astro";
             if (!items.length) {
                 all.forEach(d => d.style.display = '')
             } else {
-                all.forEach((d,i) => {
+                all.forEach((d) => {
                     if (items.some(item => new RegExp(item, 'gi').test(d.textContent))) {
                         d.style.display = ''
                     } else {
